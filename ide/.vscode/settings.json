@@ -7,7 +7,7 @@
     }
   },
   "jenkins-runner.hostConfigs": {
-    "pipelines-7080": {
+    "pipelines-7081": {
       "url": "http://localhost:7081",
       "user": "sasa",
       "password": "Joca.008",

@@ -9,7 +9,7 @@ pipeline {
                 
 			}
 		}
-        stage('test') { 
+        /* stage('test') { 
             steps {
                 sh './mvnw clean test'
             }
@@ -28,7 +28,7 @@ pipeline {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
                 }
-            }
+            } */
         }
     }
     }

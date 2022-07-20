@@ -1,16 +1,16 @@
 {
   "jenkins-runner.jobs": {
     "ide": {
-      "runWith": "pipelines-7080",
+      "runWith": "pipelines-7081",
       "name": "ide",
       "isDefault": true
     }
   },
   "jenkins-runner.hostConfigs": {
     "pipelines-7080": {
-      "url": "http://jenkins:7080",
-      "user": "admin",
-      "password": "admin",
+      "url": "http://localhost:7081",
+      "user": "sasa",
+      "password": "Joca.008",
       "useCrumbIssuer": true
     }
   }
